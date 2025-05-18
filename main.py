@@ -4,6 +4,7 @@ from PIL import Image
 from dotenv import load_dotenv
 import discord
 from discord.ext import commands
+import io
 
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
